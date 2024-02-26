@@ -15,7 +15,7 @@ public class ArrayPublicTests {
 	@Test
 	public void testContainsTrue() {
 		int[] arr = {7, -1, 2, 90, 2, 3, 10, 73, 92, 3};
-		assertTrue(Main.containsElement(3, arr));
+		assertTrue(Main.containsElement(arr, 3));
 	}
 	
 	@Test
